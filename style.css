@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    box-sizing: border-box;
+}
+.world{
+    border: 1px solid black;
+    height: 35vw;
+    min-width: 300px;
+    width: 35vw;
+    margin: 5vw auto;
+    padding: 0;
+}
+
+.world_area{
+    margin:  auto;
+    height: 7vh;
+    width: 40%;
+    text-align: center;
+    border: none;
+    font-size: 1.3rem;
+    background-color: lightsteelblue;
+}
+.info{
+    font-size: 1.5rem;
+    padding: 3vh 2vw;
+}
+.header{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-color: lightgray;
+}
+.footer{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.row{
+    width: 100%;
+    border-top:none;
+    /* border-bottom: 1px solid black; */
+    margin: 0;
+    display: flex;
+}
+
+.col{
+    height:100%;
+    /* width:12.5%; */
+    margin: 0;
+    /* border-right: 1px solid black; */
+}
+
+.water{
+background-image: url("water.jpg");
+}
+
+.land{
+    background-image: url("land.jfif");
+}
+
+.count_container{
+    background-color:lightsteelblue;
+    height: 50%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    
+}
+/* .world_container{
+    height: 85vw;
+    display: flex;
+} */
+
+.count{
+    border : none;
+    height: 100%;
+    text-align: center;
+    background-color:lightslategray;
+    width: 30%;
+    font-size: 2rem;
+}
+.something{
+    text-align: center;
+    margin: 2vw;
+}
